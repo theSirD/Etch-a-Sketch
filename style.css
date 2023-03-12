@@ -1,29 +1,43 @@
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
 }
 
 .flex-container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
 }
 
+
 .grid {
+    flex: 1 1 auto; 
     flex-direction: column;
-    flex: 1;
+    gap: 2px;
+    /* flex-basis: auto; */
+    /* flex: 1 1 auto; */
+    /* flex-direction: column; */
+    /* flex: 1; */
     background-color: red;
 }
 
 .row {
-    /* flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 2%; */
-    background-color: blue;
-    gap: 10px;
+    flex: 1 1 auto;
+    gap: 2px;
+    /* background-color: blue; */
 }
 
 .square {
-    /* flex: 1; */
-}
+    flex: 1 1 6.25%;
+    background-color: green;
 
+}
+/* .row {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 2%;
+  
+    gap: 10px;
+} */
 
