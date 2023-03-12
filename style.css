@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid {
+    flex-direction: column;
+    flex: 1;
+    background-color: red;
+}
+
+.row {
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 2%; */
+    background-color: blue;
+    gap: 10px;
+}
+
+.square {
+    /* flex: 1; */
+}
+
+
