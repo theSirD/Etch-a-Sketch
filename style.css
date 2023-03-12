@@ -12,32 +12,24 @@ body {
 
 
 .grid {
-    flex: 1 1 auto; 
+    margin: auto;
+    height: 80%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(172, 168, 168);
+
     flex-direction: column;
-    gap: 2px;
-    /* flex-basis: auto; */
-    /* flex: 1 1 auto; */
-    /* flex-direction: column; */
-    /* flex: 1; */
-    background-color: red;
+    gap: 2px;  
 }
 
 .row {
-    flex: 1 1 auto;
+    flex-grow: 1;
     gap: 2px;
-    /* background-color: blue; */
 }
 
 .square {
-    flex: 1 1 6.25%;
-    background-color: green;
+    flex-grow: 1;
+    background-color: rgb(88, 88, 141);
 
 }
-/* .row {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 2%;
-  
-    gap: 10px;
-} */
+
 
