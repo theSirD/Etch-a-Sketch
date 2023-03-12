@@ -4,6 +4,7 @@ html, body {
 
 body {
     margin: 0;
+    background-color: rgb(220, 216, 216);
 }
 
 .flex-container {
@@ -15,21 +16,17 @@ body {
     margin: auto;
     height: 80%;
     aspect-ratio: 1 / 1;
-    background-color: rgb(172, 168, 168);
 
     flex-direction: column;
-    gap: 2px;  
 }
 
 .row {
     flex-grow: 1;
-    gap: 2px;
 }
 
 .square {
     flex-grow: 1;
-    background-color: rgb(88, 88, 141);
-
+    background-color: rgba(245, 245, 245, 0.924);
 }
 
 
