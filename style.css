@@ -29,4 +29,24 @@ body {
     background-color: rgba(245, 245, 245, 0.924);
 }
 
+.controls {
+    border: 1px solid black;
+    width: 10%;
+    background-color: rgba(245, 245, 245, 0.924);;
 
+    flex-direction: column;;
+}
+
+.grid-button {
+    border: 1px solid black;
+    
+    width: 60%;
+    margin: auto auto 25% auto;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+}
+
+.button-square {
+    flex-grow: 1;
+    background-color: rgba(245, 245, 245, 0.924);;
+}
